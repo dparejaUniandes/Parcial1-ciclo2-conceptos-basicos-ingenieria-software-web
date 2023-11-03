@@ -1,6 +1,6 @@
-# Parcial
+# Parcial1 ciclo2 conceptos básicos ingeniería software web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+En este repositorio estará la solución para el primer parcial del curso, en donde se emplea las herramientas Angular, bootstrap, typeScript, HTML, CSS
 
 ## Development server
 
