@@ -5,4 +5,8 @@ h1  {
 th {
     background-color: #333A40;
     color: white;
-} 
+}
+
+.container {
+    font-family: "Inter";
+}
