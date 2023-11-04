@@ -3,9 +3,9 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { CafeListarComponent } from './coffee-list.component';
+import { CafeListarComponent } from './cafe-lista.component';
 
-describe('CoffeeListComponent', () => {
+describe('CafeListarComponent', () => {
   let component: CafeListarComponent;
   let fixture: ComponentFixture<CafeListarComponent>;
 

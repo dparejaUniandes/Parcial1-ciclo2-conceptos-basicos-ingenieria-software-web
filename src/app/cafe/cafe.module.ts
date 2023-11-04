@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CafeListarComponent } from './cafe-lista/coffee-list.component';
+import { CafeListarComponent } from './cafe-lista/cafe-lista.component';
 
 @NgModule({
   imports: [
