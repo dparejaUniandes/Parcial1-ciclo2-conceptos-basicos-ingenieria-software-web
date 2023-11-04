@@ -1,3 +1,29 @@
-<p>
-  coffee-list works!
-</p>
+
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table"> <!-- Texto de tipo "Inter" de toda la tabla-->
+      <thead class="p-3 bg-dark text-white">
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          <th>Región</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cafe of cafes; index as i">
+          <td class="fw-bold">{{ i+1}}</td>
+          <td>{{ cafe.nombre }}</td>
+          <td>{{ cafe.tipo }}</td>
+          <td>{{ cafe.region }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <p class="mb-5">
+      Total café de origen: {{totalCafeOrigen}} <br>
+      Total café blend: {{totalCafeBlend}}
+    </p>
+  </div>
+</div>
