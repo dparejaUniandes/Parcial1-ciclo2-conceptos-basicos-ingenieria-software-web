@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Parcial1 ciclo2 conceptos básicos ingeniería software web
 
 En este repositorio estará la solución para el primer parcial del curso, en donde se emplea las herramientas Angular, bootstrap, typeScript, HTML, CSS
@@ -26,7 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# Parcial1-ciclo2-conceptos-basicos-ingenieria-software-web
-En este repositorio estará la solución para el primer parcial del curso, en donde se emplea las herramientas Angular, bootstrap, typeScript, HTML, CSS
->>>>>>> c836da1da9522bacd5c60dd0d455ff2d3184aca8
