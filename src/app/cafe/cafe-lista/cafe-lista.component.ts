@@ -13,7 +13,7 @@ export class CafeListarComponent implements OnInit {
   public totalCafeOrigen : number = 0;
   public totalCafeBlend : number = 0;
   public readonly blend : string = "Blend"
-  public readonly cafeOrigen : string = "Café de Origen"
+  public readonly cafeOrigen : string = "Café de Origen";
 
   constructor(private cafeService: CafeService) { }
 
@@ -24,13 +24,13 @@ export class CafeListarComponent implements OnInit {
   public getCafes() : void {
      this.cafeService.getCafes().subscribe(cafes => {
       this.cafes = cafes;
-      this.totalCafeOrigen = this.sumarCafesPorTipo(this.cafeOrigen)
-      this.totalCafeBlend = this.sumarCafesPorTipo(this.blend)
+      this.totalCafeOrigen = this.sumarCafesPorTipo(this.cafeOrigen);
+      this.totalCafeBlend = this.sumarCafesPorTipo(this.blend);
      })
   }
 
   private sumarCafesPorTipo(tipoCafe : string) : number {
-    return this.cafes.filter( cafe => cafe.tipo === tipoCafe).reduce((cantidad, ) => cantidad+1, 0)
+    return this.cafes.filter( cafe => cafe.tipo === tipoCafe).reduce((cantidad, ) => cantidad+1, 0);
   }
 
 }
